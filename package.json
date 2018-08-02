@@ -1,0 +1,37 @@
+{
+  "name": "@hitv/ua",
+  "version": "1.0.0",
+  "description": "Is a simple userAgent parser for develop kit.",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "author": "allex <allex.wxn@gmail.com> (http://iallex.com/)",
+  "scripts": {
+    "build": "npm run lint:fix && rollup-bundle --config ./.fssrc.js",
+    "prepare": "npm run build",
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "test": "npm run lint"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/plugin-external-helpers": "^7.0.0-beta.47",
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.47",
+    "@babel/preset-env": "^7.0.0-beta.47",
+    "@babel/runtime": "^7.0.0-beta.49",
+    "@fedor/standard": "latest",
+    "babel-core": "next",
+    "babel-plugin-transform-decorators-legacy": "latest",
+    "rollup-plugin-babel": "beta",
+    "rollup-plugin-json": "^3.0.0",
+    "rollup-worker": "next"
+  },
+  "license": "MIT",
+  "standard": {
+    "ignore": [
+      "*.tmp",
+      "lib"
+    ]
+  }
+}
