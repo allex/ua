@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
   "author": "allex <allex.wxn@gmail.com> (http://iallex.com/)",
+  "repository": "allex/ua",
   "scripts": {
     "build": "npm run lint:fix && rollup-bundle --config ./.fssrc.js",
     "prepare": "npm run build",
@@ -15,16 +16,13 @@
   "dependencies": {
   },
   "devDependencies": {
-    "@babel/core": "latest",
-    "@babel/plugin-external-helpers": "^7.0.0-beta.47",
-    "@babel/plugin-transform-runtime": "^7.0.0-beta.47",
-    "@babel/preset-env": "^7.0.0-beta.47",
-    "@babel/runtime": "^7.0.0-beta.49",
+    "@babel/core": "^7",
+    "@babel/plugin-proposal-decorators": "^7",
+    "@babel/plugin-transform-runtime": "^7",
+    "@babel/preset-env": "^7",
+    "@babel/runtime": "^7",
     "@fedor/standard": "latest",
-    "babel-core": "next",
-    "babel-plugin-transform-decorators-legacy": "latest",
-    "rollup-plugin-babel": "beta",
-    "rollup-plugin-json": "^3.0.0",
+    "rollup-plugin-babel": "latest",
     "rollup-worker": "next"
   },
   "license": "MIT",

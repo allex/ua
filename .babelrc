@@ -1,0 +1,16 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "loose": true,
+      "modules": false,
+      "useBuiltIns": false,
+      "targets": {
+        browsers: [ "last 2 versions", "not ie <= 8" ]
+      }
+    }]
+  ],
+  "plugins": [
+    [ "@babel/plugin-proposal-decorators", { "legacy": true } ],
+    [ "@babel/plugin-transform-runtime", { "helpers": false, "regenerator": true } ]
+  ]
+}

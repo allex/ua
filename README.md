@@ -32,4 +32,4 @@ console.log(ua)
 
 ## License
 
-MIT
+[MIT](https://allex.github.io/LICENSE.md)
