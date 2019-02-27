@@ -1,6 +1,6 @@
 {
   "name": "@hitv/ua",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Is a simple userAgent parser for develop kit.",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
